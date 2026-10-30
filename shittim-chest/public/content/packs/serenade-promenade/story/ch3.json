@@ -1,0 +1,41 @@
+{
+  "id": "serenade-story-3",
+  "title": "第3话 走调的小夜曲",
+  "nodes": [
+    { "type": "title", "text": "第3话", "sub": "走调的小夜曲" },
+    { "type": "bg", "asset": "bg_church_hall", "effect": "fade" },
+    { "type": "bgm", "asset": "bgm_serenade" },
+    { "type": "narrate", "text": "霸占主舞台黄金时段的，是自称“嘉年华歌姬”的神秘团体——噪音音社。" },
+    { "type": "bg", "asset": "bg_trinity_stage", "effect": "fade" },
+    { "type": "enter", "char": "noise", "position": "right" },
+    { "type": "say", "char": "noise", "text": "吼——！主舞台是我们的！我们要连开七场演唱会——！" },
+    { "type": "enter", "char": "mine", "position": "left" },
+    { "type": "say", "char": "mine", "text": "七场？！连唱七场的话，音响设备会烧掉的吧！" },
+    { "type": "enter", "char": "sakurako", "position": "center" },
+    { "type": "say", "char": "sakurako", "text": "谈判……彻底破裂了。老师，接下来怎么办？" },
+    { "type": "choice", "prompt": "老师的选择是？", "options": [
+      { "text": "让老师来交涉。", "flag": "q3_talk", "goto": "talk" },
+      { "text": "用歌声一决胜负。", "flag": "q3_sing", "goto": "sing" }
+    ] },
+    { "type": "label", "name": "talk" },
+    { "type": "say", "char": "sensei", "text": "交涉的钥匙不在这里，那就换个地方找。——玛丽同学，能借你的歌声一用吗？" },
+    { "type": "jump", "to": "faceoff" },
+    { "type": "label", "name": "sing" },
+    { "type": "say", "char": "sensei", "text": "对方既然自称“歌姬”，那就用歌声分出高下。玛丽同学——" },
+    { "type": "label", "name": "faceoff" },
+    { "type": "say", "char": "noise", "text": "哼——好大的口气！那就嘉年华舞台上见真章！赢了的话，黄金时段让给你们！" },
+    { "type": "say", "char": "sakurako", "text": "真是……得寸进尺。" },
+    { "type": "exit", "char": "noise" },
+    { "type": "enter", "char": "mari", "position": "right" },
+    { "type": "say", "char": "mari", "text": "没关系的。既然对方要用舞台决胜负——我们就用歌声来应战。" },
+    { "type": "say", "char": "mari", "text": "其实我从很早以前，就一直想试着……站在聚光灯下，为重要的人们唱歌。" },
+    { "type": "say", "char": "sakurako", "text": "玛丽……" },
+    { "type": "fx", "effect": "hearts" },
+    { "type": "say", "char": "mine", "text": "好浪漫的发言！玛丽，你其实非常期待吧！" },
+    { "type": "emotion", "char": "mari", "emotion": "smile" },
+    { "type": "say", "char": "mari", "text": "咦？那、那是——" },
+    { "type": "title", "text": "◆", "sub": "偶像 · 伊落玛丽，悄然觉醒。" },
+    { "type": "narrate", "text": "决战之日定在嘉年华最后一天。而留给她们准备的时间，只有一周。——第3话 完——" },
+    { "type": "end" }
+  ]
+}

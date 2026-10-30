@@ -1,0 +1,236 @@
+{
+  "threads": [
+    {
+      "studentId": "mari",
+      "title": "伊落玛丽",
+      "avatar": "avatar_mari",
+      "messages": [
+        {
+          "id": "m1",
+          "type": "msg",
+          "from": "student",
+          "text": "老师，晚上好。今天电气社的交涉，多亏了老师陪同。"
+        },
+        {
+          "id": "m2",
+          "type": "msg",
+          "from": "student",
+          "text": "作为回礼，我把修女会的特制玛德琳蛋糕送去夏莱了，请查收。"
+        },
+        {
+          "id": "m3",
+          "type": "options",
+          "options": [
+            {
+              "text": "谢谢你，玛丽同学。",
+              "goto": "ma1"
+            },
+            {
+              "text": "实不相瞒，蛋糕在办公室就被消灭了。",
+              "goto": "mb1"
+            }
+          ],
+          "merge": "m4"
+        },
+        {
+          "id": "ma1",
+          "type": "msg",
+          "from": "player",
+          "text": "谢谢你，玛丽同学。孩子们都很喜欢。"
+        },
+        {
+          "id": "ma2",
+          "type": "msg",
+          "from": "student",
+          "text": "呵呵，那就好。下次为您烤新的口味。"
+        },
+        {
+          "id": "mb1",
+          "type": "msg",
+          "from": "player",
+          "text": "实不相瞒，蛋糕在办公室就被消灭了。"
+        },
+        {
+          "id": "mb2",
+          "type": "msg",
+          "from": "student",
+          "text": "呀……看来圣三一的甜蜜攻势，败给了夏莱的胃口呢。"
+        },
+        {
+          "id": "m4",
+          "type": "msg",
+          "from": "student",
+          "text": "对了，这是演出当晚的照片——樱子会长偷偷保存下来的哦。",
+          "image": "cg_carnival_stage"
+        },
+        {
+          "id": "m5",
+          "type": "options",
+          "options": [
+            {
+              "text": "偶像玛丽也很耀眼。",
+              "goto": "m5a"
+            },
+            {
+              "text": "还是平时的玛丽更让人安心。",
+              "goto": "m5b"
+            }
+          ],
+          "merge": "m6"
+        },
+        {
+          "id": "m5a",
+          "type": "msg",
+          "from": "player",
+          "text": "偶像玛丽也很耀眼。"
+        },
+        {
+          "id": "m5a1",
+          "type": "msg",
+          "from": "student",
+          "text": "谢、谢谢您……被老师这样夸奖，还有点不好意思呢。"
+        },
+        {
+          "id": "m5b",
+          "type": "msg",
+          "from": "player",
+          "text": "还是平时的玛丽更让人安心。"
+        },
+        {
+          "id": "m5b1",
+          "type": "msg",
+          "from": "student",
+          "text": "呵呵，老师真是的。不过，我也很喜欢平时的自己哦。"
+        },
+        {
+          "id": "m6",
+          "type": "msg",
+          "from": "student",
+          "text": "对了老师，关于“深夜的练歌房”，如果您愿意的话……"
+        },
+        {
+          "id": "m7",
+          "type": "bond",
+          "storyUnitId": "serenade-bond-mari",
+          "text": "「后话 · 深夜的练歌房」已解锁，点击查看。"
+        }
+      ]
+    },
+    {
+      "studentId": "sakurako",
+      "title": "歌住樱子",
+      "avatar": "avatar_sakurako",
+      "messages": [
+        {
+          "id": "s1",
+          "type": "msg",
+          "from": "student",
+          "text": "老师。关于本次演出的账目报告，已经提交至夏莱信箱，请查收。"
+        },
+        {
+          "id": "s2",
+          "type": "msg",
+          "from": "student",
+          "text": "另外——玛丽在舞台上的样子，已作为修女会的正式记录留档。"
+        },
+        {
+          "id": "s3",
+          "type": "options",
+          "options": [
+            {
+              "text": "樱子会长也很努力了。",
+              "goto": "s3a"
+            },
+            {
+              "text": "报告收到，辛苦了。",
+              "goto": "s4"
+            }
+          ],
+          "merge": "s4"
+        },
+        {
+          "id": "s3a",
+          "type": "msg",
+          "from": "player",
+          "text": "樱子会长也很努力了。"
+        },
+        {
+          "id": "s3a1",
+          "type": "msg",
+          "from": "student",
+          "text": "哼，那是当然的。作为会长，这点程度……（并没有很冷静）"
+        },
+        {
+          "id": "s4",
+          "type": "msg",
+          "from": "student",
+          "text": "下次的嘉年华，修女会会准备更好的舞台。……敬请期待。"
+        }
+      ]
+    },
+    {
+      "studentId": "mine",
+      "title": "苍森美祢",
+      "avatar": "avatar_mine",
+      "messages": [
+        {
+          "id": "y1",
+          "type": "msg",
+          "from": "student",
+          "text": "老师！应援棒的库存已经补充完毕！"
+        },
+        {
+          "id": "y2",
+          "type": "msg",
+          "from": "student",
+          "text": "下次演出，“美祢应援团”将整体出动！"
+        },
+        {
+          "id": "y3",
+          "type": "options",
+          "options": [
+            {
+              "text": "辛苦了，美祢。",
+              "goto": "y3a"
+            },
+            {
+              "text": "要用掉多少根应援棒？",
+              "goto": "y3b"
+            }
+          ],
+          "merge": "y4"
+        },
+        {
+          "id": "y3a",
+          "type": "msg",
+          "from": "player",
+          "text": "辛苦了，美祢。"
+        },
+        {
+          "id": "y3a1",
+          "type": "msg",
+          "from": "student",
+          "text": "嘿嘿，为了玛丽，这点程度不算什么！"
+        },
+        {
+          "id": "y3b",
+          "type": "msg",
+          "from": "player",
+          "text": "要用掉多少根应援棒？"
+        },
+        {
+          "id": "y3b1",
+          "type": "msg",
+          "from": "student",
+          "text": "三百根起步！不够的话还有备用包！"
+        },
+        {
+          "id": "y4",
+          "type": "msg",
+          "from": "student",
+          "text": "那么，美祢先去巡逻会场了！老师再见！"
+        }
+      ]
+    }
+  ]
+}

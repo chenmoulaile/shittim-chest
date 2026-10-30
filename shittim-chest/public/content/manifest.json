@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-30T00:00:00+08:00",
+  "generator": "shittim-chest-v1",
+  "note": "V1 本地内容清单。所有内容单元完全离线，运行时不发起任何远程请求。",
+  "audio": {
+    "bgm_menu": "packs/serenade-promenade/audio/bgm/bgm_menu.wav",
+    "bgm_serenade": "packs/serenade-promenade/audio/bgm/bgm_serenade.wav",
+    "bgm_battle": "packs/serenade-promenade/audio/bgm/bgm_battle.wav",
+    "bgm_lobby": "packs/serenade-promenade/audio/bgm/bgm_lobby.wav",
+    "sfx_click": "packs/serenade-promenade/audio/sfx/sfx_click.wav",
+    "sfx_confirm": "packs/serenade-promenade/audio/sfx/sfx_confirm.wav",
+    "sfx_hit": "packs/serenade-promenade/audio/sfx/sfx_hit.wav",
+    "sfx_heal": "packs/serenade-promenade/audio/sfx/sfx_heal.wav",
+    "sfx_perfect": "packs/serenade-promenade/audio/sfx/sfx_perfect.wav",
+    "voice_mari_01": "packs/serenade-promenade/audio/voice/voice_mari_01.wav",
+    "voice_mari_02": "packs/serenade-promenade/audio/voice/voice_mari_02.wav",
+    "voice_sakurako_01": "packs/serenade-promenade/audio/voice/voice_sakurako_01.wav",
+    "voice_mine_01": "packs/serenade-promenade/audio/voice/voice_mine_01.wav",
+    "voice_generic_01": "packs/serenade-promenade/audio/voice/voice_generic_01.wav"
+  },
+  "pixi": {
+    "bundles": [
+      {
+        "name": "common",
+        "assets": [
+          { "alias": "logo_shittim", "src": "packs/serenade-promenade/assets/ui/logo_shittim.svg" },
+          { "alias": "bg_menu", "src": "packs/serenade-promenade/assets/ui/bg_menu.svg" },
+          { "alias": "bg_lobby_room", "src": "packs/serenade-promenade/assets/ui/bg_lobby_room.svg" },
+          { "alias": "momo_icon", "src": "packs/serenade-promenade/assets/ui/momo_icon.svg" },
+          { "alias": "banner_serenade", "src": "packs/serenade-promenade/assets/ui/banner_serenade.svg" },
+          { "alias": "avatar_mari", "src": "packs/serenade-promenade/assets/char/avatar_mari.svg" },
+          { "alias": "avatar_sakurako", "src": "packs/serenade-promenade/assets/char/avatar_sakurako.svg" },
+          { "alias": "avatar_mine", "src": "packs/serenade-promenade/assets/char/avatar_mine.svg" },
+          { "alias": "avatar_sensei", "src": "packs/serenade-promenade/assets/char/avatar_sensei.svg" },
+          { "alias": "fx_heart", "src": "packs/serenade-promenade/assets/fx/heart_particle.svg" },
+          { "alias": "fx_note", "src": "packs/serenade-promenade/assets/fx/note_particle.svg" }
+        ]
+      },
+      {
+        "name": "serenade-story",
+        "assets": [
+          { "alias": "bg_trinity_carnival", "src": "packs/serenade-promenade/assets/bg/bg_trinity_carnival.svg" },
+          { "alias": "bg_trinity_stage", "src": "packs/serenade-promenade/assets/bg/bg_trinity_stage.svg" },
+          { "alias": "bg_church_hall", "src": "packs/serenade-promenade/assets/bg/bg_church_hall.svg" },
+          { "alias": "bg_school_street_night", "src": "packs/serenade-promenade/assets/bg/bg_school_street_night.svg" },
+          { "alias": "cg_carnival_stage", "src": "packs/serenade-promenade/assets/ui/cg_carnival_stage.svg" },
+          { "alias": "char_mari_normal", "src": "packs/serenade-promenade/assets/char/char_mari_normal.svg" },
+          { "alias": "char_mari_smile", "src": "packs/serenade-promenade/assets/char/char_mari_smile.svg" },
+          { "alias": "char_sakurako_normal", "src": "packs/serenade-promenade/assets/char/char_sakurako_normal.svg" },
+          { "alias": "char_sakurako_smile", "src": "packs/serenade-promenade/assets/char/char_sakurako_smile.svg" },
+          { "alias": "char_mine_normal", "src": "packs/serenade-promenade/assets/char/char_mine_normal.svg" },
+          { "alias": "char_mine_smile", "src": "packs/serenade-promenade/assets/char/char_mine_smile.svg" },
+          { "alias": "char_sensei", "src": "packs/serenade-promenade/assets/char/char_sensei.svg" }
+        ]
+      },
+      {
+        "name": "serenade-minigame",
+        "assets": [
+          { "alias": "bg_battle_stage", "src": "packs/serenade-promenade/assets/bg/bg_battle_stage.svg" },
+          { "alias": "enemy_noise", "src": "packs/serenade-promenade/assets/ui/enemy_noise.svg" },
+          { "alias": "enemy_diva", "src": "packs/serenade-promenade/assets/ui/enemy_diva.svg" },
+          { "alias": "boss_ancoff", "src": "packs/serenade-promenade/assets/ui/boss_ancoff.svg" }
+        ]
+      },
+      {
+        "name": "summer-story",
+        "assets": [
+          { "alias": "banner_summer", "src": "packs/summer-skys-promise/assets/ui/banner_summer.svg" },
+          { "alias": "bg_classroom", "src": "packs/summer-skys-promise/assets/bg/bg_classroom.svg" },
+          { "alias": "char_generic_summer", "src": "packs/summer-skys-promise/assets/char/char_generic_summer.svg" },
+          { "alias": "avatar_summer", "src": "packs/summer-skys-promise/assets/ui/avatar_summer.svg" }
+        ]
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "event-serenade-promenade",
+      "source": "global",
+      "asOf": "2026-10-30",
+      "meta": {
+        "category": "event",
+        "eventId": "Event40SerenadePromenade",
+        "order": 1,
+        "status": "active",
+        "title": "先将她们的小夜曲",
+        "titleEn": "Serenade Promenade",
+        "summary": "崔尼蒂嘉年华正热火朝天地进行。樱子和美祢在准备偶像表演的过程中，认为光靠自己的力量应付不来，于是向玛丽寻求帮助。",
+        "banner": "banner_serenade",
+        "themeColor": "#7fb8ff",
+        "bgm": "bgm_serenade",
+        "cast": ["mari", "sakurako", "mine"]
+      },
+      "assets": {
+        "bundles": ["common", "serenade-story", "serenade-minigame"],
+        "characterTable": "packs/serenade-promenade/characters.json"
+      },
+      "units": [
+        { "id": "serenade-story-1", "type": "story", "order": 1, "status": "active", "title": "第1话 崔尼蒂嘉年华7号街", "script": "packs/serenade-promenade/story/ch1.json", "unlockAfter": null },
+        { "id": "serenade-story-2", "type": "story", "order": 2, "status": "active", "title": "第2话 意外的调查", "script": "packs/serenade-promenade/story/ch2.json", "unlockAfter": "serenade-story-1" },
+        { "id": "serenade-story-3", "type": "story", "order": 3, "status": "active", "title": "第3话 走调的小夜曲", "script": "packs/serenade-promenade/story/ch3.json", "unlockAfter": "serenade-story-2" },
+        { "id": "serenade-story-4", "type": "story", "order": 4, "status": "active", "title": "第4话 献给她们的安可", "script": "packs/serenade-promenade/story/ch4.json", "unlockAfter": "serenade-story-3" },
+        { "id": "serenade-bond-mari", "type": "bond", "order": 10, "status": "active", "title": "后话 · 深夜的练歌房", "studentId": "mari", "script": "packs/serenade-promenade/story/bond_mari.json", "unlockAfter": "serenade-story-4" },
+        { "id": "serenade-momotalk", "type": "momotalk", "order": 20, "status": "active", "title": "桃信 · 通话记录", "script": "packs/serenade-promenade/momotalk/index.json" },
+        { "id": "serenade-minigame", "type": "minigame", "order": 30, "status": "active", "title": "嘉年华特别舞台 · 节拍协奏战", "minigameType": "serenade-stage", "config": "packs/serenade-promenade/minigame/levels.json" }
+      ]
+    },
+    {
+      "id": "event-summer-skys-promise",
+      "source": "global",
+      "asOf": "2026-10-30",
+      "meta": {
+        "category": "event",
+        "eventId": "EventSummerSkysPromise",
+        "order": 2,
+        "status": "recap",
+        "title": "夏日天空的约定",
+        "titleEn": "Summer Sky's Promise",
+        "summary": "（补档演示）处于 recap 状态的历史活动：剧情入口保留，小游戏入口按状态规则隐藏。",
+        "banner": "banner_summer",
+        "themeColor": "#4fc3ff",
+        "bgm": "bgm_menu",
+        "cast": ["summer"]
+      },
+      "assets": {
+        "bundles": ["common", "summer-story"],
+        "characterTable": null
+      },
+      "units": [
+        { "id": "summer-story-1", "type": "story", "order": 1, "status": "active", "title": "补档 · 那个夏天的约定", "script": "packs/summer-skys-promise/story/recap.json", "unlockAfter": null },
+        { "id": "summer-minigame", "type": "minigame", "order": 2, "status": "active", "title": "（补档小游戏 · 已关闭）", "minigameType": "summer-generic", "config": null }
+      ]
+    }
+  ]
+}

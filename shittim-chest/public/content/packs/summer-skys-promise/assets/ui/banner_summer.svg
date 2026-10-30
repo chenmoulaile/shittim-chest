@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs><linearGradient id="bs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f9fd8"/><stop offset="1" stop-color="#7fd4e8"/></linearGradient></defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bs)"/>
+  <circle cx="220" cy="120" r="70" fill="#fff3b8"/>
+  <path d="M0 260 Q300 200 600 260 T1200 260 L1200 360 L0 360 Z" fill="#2f7fb8" opacity=".85"/>
+  <text x="70" y="150" font-size="54" fill="#ffffff" font-weight="bold" font-family="sans-serif">夏日天空的约定</text>
+  <text x="70" y="215" font-size="28" fill="#dff4ff" font-family="sans-serif">Summer Sky's Promise · 补档（recap）</text></svg>

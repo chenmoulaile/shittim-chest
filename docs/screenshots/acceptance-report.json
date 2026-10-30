@@ -1,0 +1,102 @@
+{
+  "remoteRequests": [],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "checks": [
+    {
+      "name": "启动加载 → 主菜单",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "活动列表可浏览（Serenade）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "recap 活动隐藏小游戏入口（状态合规）",
+      "pass": true,
+      "note": "minigame区块=0, 提示=true"
+    },
+    {
+      "name": "剧情播放器渲染（Pixi 立绘+对话框）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "第1话完整播放 + 选项分支 + 自动返回",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "阅读进度持久化（第1话显示已读）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "层级导航解锁（第2话可进入）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "桃信消息流渲染",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "桃信选项分支 + 羁绊入口出现",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "羁绊跳转解锁链校验（未通关第4话被拦截）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "记忆大厅渲染 + 触摸反馈",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "小游戏运行时启动（注册表 → serenade-stage）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "节拍判定窗口出现",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "回合结算（伤害/日志/敌方回合）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "关卡完成 → 结算界面（返回结果对象）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "小游戏结束正确返回活动菜单",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "离线可用性（拦截全部外部请求后完整启动并浏览内容）",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "无远程请求（运行期 0 外部请求）",
+      "pass": true,
+      "note": "所有请求均为本地资源"
+    },
+    {
+      "name": "页面无 JS 错误",
+      "pass": true,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "serenade-bond-mari",
+  "title": "后话 · 深夜的练歌房",
+  "bond": true,
+  "nodes": [
+    { "type": "bg", "asset": "bg_church_hall", "effect": "fade" },
+    { "type": "bgm", "asset": "bgm_lobby" },
+    { "type": "narrate", "text": "演出落幕数日后的深夜。老师收到一封来自修女会的邀请函——" },
+    { "type": "enter", "char": "mari", "position": "center" },
+    { "type": "say", "char": "mari", "text": "老师，欢迎来到深夜的练歌房。其实……这一周，我每天晚上都会来这里练习。" },
+    { "type": "say", "char": "mari", "text": "偶像的活动虽然结束了，但“想唱歌”的心情，已经完全停不下来了。" },
+    { "type": "choice", "prompt": "老师回应道——", "options": [
+      { "text": "那就一起练习吧。", "flag": "b1_duet", "goto": "duet" },
+      { "text": "有什么想唱的歌吗？", "flag": "b1_song", "goto": "song" }
+    ] },
+    { "type": "label", "name": "duet" },
+    { "type": "say", "char": "sensei", "text": "一个人练太寂寞了的话——今晚就一起吧。" },
+    { "type": "jump", "to": "fin" },
+    { "type": "label", "name": "song" },
+    { "type": "say", "char": "sensei", "text": "有什么想唱的歌吗？" },
+    { "type": "say", "char": "mari", "text": "嗯……一首还没有名字的小夜曲。是排练的时候，不知不觉哼出来的。" },
+    { "type": "label", "name": "fin" },
+    { "type": "emotion", "char": "mari", "emotion": "smile" },
+    { "type": "say", "char": "mari", "voice": "voice_mari_01", "text": "那就……先从二重唱开始，可以吗？" },
+    { "type": "say", "char": "sensei", "text": "……嗯。曲目就交给我来考虑吧。" },
+    { "type": "say", "char": "mari", "text": "谢谢您，老师。今晚的小夜曲，就先献给老师一个人。" },
+    { "type": "narrate", "text": "——后话 完——" },
+    { "type": "end" }
+  ]
+}

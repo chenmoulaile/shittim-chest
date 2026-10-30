@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1000" viewBox="0 0 700 1000">
+  <defs>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f8ff"/><stop offset="1" stop-color="#d0dcf0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="350" cy="965" rx="150" ry="24" fill="rgba(10,20,40,.28)"/>
+  <path d="M228 260 q10 -150 122 -150 q112 0 122 150 q12 170 -8 260 q-50 34 -114 34 q-64 0 -114 -34 q-20 -90 -8 -260z" fill="#a8744a"/>
+    <path d="M212 300 q-90 40 -70 190 q40 60 78 40 q-30 -120 20 -210z" fill="#c89060" stroke="rgba(40,40,60,.25)" stroke-width="3"/>
+    <path d="M528 300 q90 40 70 190 q-40 60 -78 40 q30 -120 -20 -210z" fill="#c89060" stroke="rgba(40,40,60,.25)" stroke-width="3"/>
+    <circle cx="208" cy="292" r="20" fill="#4fc3ff"/><circle cx="532" cy="292" r="20" fill="#4fc3ff"/>
+  <path d="M270 440 l160 0 q54 90 50 250 l-10 250 l-240 0 l-10 -250 q-4 -160 50 -250z" fill="url(#cloth)" stroke="rgba(40,40,60,.25)" stroke-width="3"/>
+  <path d="M340 445 l40 0 l-6 84 l-28 0 z" fill="rgba(255,255,255,.75)"/>
+  <path d="M350 505 l-46 40 l46 52 l46 -52 z" fill="#4fc3ff"/>
+  <circle cx="350" cy="560" r="12" fill="#4fc3ff"/>
+  
+  <path d="M262 452 q88 40 176 0 l-12 -26 q-76 30 -152 0 z" fill="rgba(255,255,255,.85)"/>
+  <rect x="330" y="392" width="80" height="46" rx="20" fill="#ffe8da"/>
+  <circle cx="350" cy="300" r="140" fill="#ffe8da"/>
+  <path d="M216 268 q36 -128 134 -128 q98 0 134 128 q-20 66 -34 74 q6 -96 -100 -104 q-106 8 -100 104 q-14 -8 -34 -74z" fill="#c89060"/>
+  <path d="M224 300 q-24 90 6 150 q26 12 40 -6 q-30 -60 -14 -140z" fill="#c89060"/>
+  <path d="M476 300 q24 90 -6 150 q-26 12 -40 -6 q30 -60 14 -140z" fill="#c89060"/>
+  
+  <ellipse cx="322" cy="295" rx="20" ry="26" fill="#fff"/><circle cx="322" cy="298" r="13" fill="#4a9a6a"/><circle cx="318" cy="292" r="5" fill="#fff"/>
+       <ellipse cx="418" cy="295" rx="20" ry="26" fill="#fff"/><circle cx="418" cy="298" r="13" fill="#4a9a6a"/><circle cx="414" cy="292" r="5" fill="#fff"/>
+       <path d="M300 262 q22 -12 44 -2" stroke="#a8744a" stroke-width="10" fill="none" stroke-linecap="round"/>
+       <path d="M396 260 q22 -10 44 2" stroke="#a8744a" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M352 356 q18 8 36 0" stroke="#d96a7c" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <ellipse cx="286" cy="336" rx="16" ry="8" fill="rgba(255,150,160,.5)"/>
+  <ellipse cx="454" cy="336" rx="16" ry="8" fill="rgba(255,150,160,.5)"/>
+  <g transform="rotate(-6 350 130)">
+    <ellipse cx="350" cy="130" rx="92" ry="30" fill="none" stroke="#4fc3ff" stroke-width="10" opacity=".95"/>
+    <ellipse cx="350" cy="130" rx="92" ry="30" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="3"/>
+  </g>
+  <!-- summer -->
+</svg>

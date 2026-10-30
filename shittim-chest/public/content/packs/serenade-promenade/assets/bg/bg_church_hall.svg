@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs><linearGradient id="cw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3f66"/><stop offset="1" stop-color="#20233e"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#cw)"/>
+  <g><path d="M210 820 L210 380 Q320 240 430 380 L430 820 Z" fill="#2a2e52" stroke="#c9b47a" stroke-width="8"/>
+    <path d="M250 760 L250 420 Q320 320 390 420 L390 760 Z" fill="#5a7ac6" opacity=".55"/>
+    <path d="M270 700 L370 480 M270 480 L370 700" stroke="#cfe0ff" stroke-width="8" opacity=".5"/></g><g><path d="M630 820 L630 380 Q740 240 850 380 L850 820 Z" fill="#2a2e52" stroke="#c9b47a" stroke-width="8"/>
+    <path d="M670 760 L670 420 Q740 320 810 420 L810 760 Z" fill="#5a7ac6" opacity=".55"/>
+    <path d="M690 700 L790 480 M690 480 L790 700" stroke="#cfe0ff" stroke-width="8" opacity=".5"/></g><g><path d="M1050 820 L1050 380 Q1160 240 1270 380 L1270 820 Z" fill="#2a2e52" stroke="#c9b47a" stroke-width="8"/>
+    <path d="M1090 760 L1090 420 Q1160 320 1230 420 L1230 760 Z" fill="#5a7ac6" opacity=".55"/>
+    <path d="M1110 700 L1210 480 M1110 480 L1210 700" stroke="#cfe0ff" stroke-width="8" opacity=".5"/></g><g><path d="M1470 820 L1470 380 Q1580 240 1690 380 L1690 820 Z" fill="#2a2e52" stroke="#c9b47a" stroke-width="8"/>
+    <path d="M1510 760 L1510 420 Q1580 320 1650 420 L1650 760 Z" fill="#5a7ac6" opacity=".55"/>
+    <path d="M1530 700 L1630 480 M1530 480 L1630 700" stroke="#cfe0ff" stroke-width="8" opacity=".5"/></g>
+  <g><rect x="150" y="840" width="26" height="200" fill="#c9b47a"/><ellipse cx="163" cy="820" rx="26" ry="16" fill="#ffdf8f"/></g><g><rect x="470" y="840" width="26" height="200" fill="#c9b47a"/><ellipse cx="483" cy="820" rx="26" ry="16" fill="#ffdf8f"/></g><g><rect x="790" y="840" width="26" height="200" fill="#c9b47a"/><ellipse cx="803" cy="820" rx="26" ry="16" fill="#ffdf8f"/></g><g><rect x="1110" y="840" width="26" height="200" fill="#c9b47a"/><ellipse cx="1123" cy="820" rx="26" ry="16" fill="#ffdf8f"/></g><g><rect x="1430" y="840" width="26" height="200" fill="#c9b47a"/><ellipse cx="1443" cy="820" rx="26" ry="16" fill="#ffdf8f"/></g><g><rect x="1750" y="840" width="26" height="200" fill="#c9b47a"/><ellipse cx="1763" cy="820" rx="26" ry="16" fill="#ffdf8f"/></g>
+  <path d="M0 1040 L1920 1040 L1920 1080 L0 1080 Z" fill="#c9b47a" opacity=".7"/>
+  <rect y="900" width="1920" height="180" fill="#575c8a"/></svg>

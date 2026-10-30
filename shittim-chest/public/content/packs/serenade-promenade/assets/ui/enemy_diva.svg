@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="460" viewBox="0 0 360 460">
+  <path d="M180 40 q100 40 96 180 q-4 140 -96 200 q-92 -60 -96 -200 q-4 -140 96 -180z" fill="#b04f86"/>
+  <circle cx="142" cy="200" r="20" fill="#fff"/><circle cx="142" cy="204" r="10" fill="#2a1030"/>
+  <circle cx="218" cy="200" r="20" fill="#fff"/><circle cx="218" cy="204" r="10" fill="#2a1030"/>
+  <ellipse cx="180" cy="262" rx="26" ry="34" fill="#2a1030"/>
+  <rect x="252" y="150" width="14" height="120" fill="#e8e8f8"/><circle cx="259" cy="140" r="26" fill="#cfcfe8"/><circle cx="259" cy="140" r="16" fill="#2a1030"/>
+  <text x="60" y="120" font-size="40" fill="#ffd0ea" font-family="serif" transform="rotate(-20 60 120)">♬</text></svg>

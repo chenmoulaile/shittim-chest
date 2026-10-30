@@ -1,0 +1,18 @@
+{
+  "id": "summer-story-1",
+  "title": "补档 · 那个夏天的约定",
+  "recap": true,
+  "nodes": [
+    { "type": "title", "text": "补档", "sub": "夏日天空的约定" },
+    { "type": "bg", "asset": "bg_classroom", "effect": "fade" },
+    { "type": "bgm", "asset": "bgm_menu" },
+    { "type": "narrate", "text": "（这是一段处于 recap 状态的历史活动存档，用于验证补档入口的表现规则。）" },
+    { "type": "enter", "char": "summer", "position": "center" },
+    { "type": "say", "char": "summer", "text": "老师，欢迎回来。这份记忆，来自更早的一个夏天……" },
+    { "type": "say", "char": "sensei", "text": "那么，让我们简单回顾一下吧。" },
+    { "type": "emotion", "char": "summer", "emotion": "smile" },
+    { "type": "say", "char": "summer", "text": "那个夏天，和老师一起仰望过的天空——这份约定，老师还记得吗？" },
+    { "type": "narrate", "text": "……（recap 存档到此为止。完整剧情将在正式资产包就位后填充。）" },
+    { "type": "end" }
+  ]
+}

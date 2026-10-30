@@ -1,0 +1,42 @@
+{
+  "mari": {
+    "name": "伊落玛丽",
+    "shortName": "玛丽",
+    "color": "#7fb8ff",
+    "sprites": { "normal": "char_mari_normal", "smile": "char_mari_smile" },
+    "avatar": "avatar_mari",
+    "voices": ["voice_mari_01", "voice_mari_02"]
+  },
+  "sakurako": {
+    "name": "歌住樱子",
+    "shortName": "樱子",
+    "color": "#e08a96",
+    "sprites": { "normal": "char_sakurako_normal", "smile": "char_sakurako_smile" },
+    "avatar": "avatar_sakurako",
+    "voices": ["voice_sakurako_01"]
+  },
+  "mine": {
+    "name": "苍森美祢",
+    "shortName": "美祢",
+    "color": "#f0c060",
+    "sprites": { "normal": "char_mine_normal", "smile": "char_mine_smile" },
+    "avatar": "avatar_mine",
+    "voices": ["voice_mine_01"]
+  },
+  "sensei": {
+    "name": "老师",
+    "shortName": "老师",
+    "color": "#9fd8b0",
+    "sprites": { "normal": "char_sensei" },
+    "avatar": "avatar_sensei",
+    "voices": ["voice_generic_01"]
+  },
+  "noise": {
+    "name": "噪音音社",
+    "shortName": "噪音音",
+    "color": "#b08ae0",
+    "sprites": { "normal": "enemy_noise" },
+    "avatar": null,
+    "voices": []
+  }
+}

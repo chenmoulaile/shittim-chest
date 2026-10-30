@@ -1,0 +1,52 @@
+{
+  "gameTitle": "嘉年华特别舞台 · 节拍协奏战",
+  "intro": "击退侵扰舞台的噪音团，守护小夜曲的演出！点击指令后，在节拍标记进入高亮区时按下节拍键，可打出暴击！",
+  "player": {
+    "id": "mari",
+    "name": "伊落玛丽（偶像）",
+    "maxHp": 100,
+    "atk": 12,
+    "sprite": "char_mari_smile"
+  },
+  "supports": [
+    { "id": "sakurako", "name": "歌住樱子", "skill": "和声·治愈", "sprite": "char_sakurako_smile", "desc": "每回合恢复少量生命" },
+    { "id": "mine", "name": "苍森美祢", "skill": "应援·护盾", "sprite": "char_mine_smile", "desc": "每3回合获得护盾" }
+  ],
+  "timing": { "sweepSec": 1.15, "windowPerfect": 0.055, "windowGood": 0.13 },
+  "scoreRules": { "baseWin": 500, "perPerfect": 40, "perTurnPenalty": 15, "hpBonusRate": 3 },
+  "levels": [
+    {
+      "id": "lv1",
+      "title": "第一乐章 · 试音",
+      "bg": "bg_battle_stage",
+      "bgm": "bgm_battle",
+      "waves": [
+        { "name": "噪音喽啰 A", "sprite": "enemy_noise", "hp": 42, "atk": 8 },
+        { "name": "噪音喽啰 B", "sprite": "enemy_noise", "hp": 42, "atk": 9 }
+      ],
+      "rank": { "S": 780, "A": 640, "B": 480 }
+    },
+    {
+      "id": "lv2",
+      "title": "第二乐章 · 不协和音",
+      "bg": "bg_battle_stage",
+      "bgm": "bgm_battle",
+      "waves": [
+        { "name": "噪音喽啰", "sprite": "enemy_noise", "hp": 46, "atk": 9 },
+        { "name": "失调歌姬", "sprite": "enemy_diva", "hp": 74, "atk": 12 }
+      ],
+      "rank": { "S": 860, "A": 700, "B": 520 }
+    },
+    {
+      "id": "lv3",
+      "title": "终乐章 · 黄金时段",
+      "bg": "bg_battle_stage",
+      "bgm": "bgm_battle",
+      "waves": [
+        { "name": "失调歌姬", "sprite": "enemy_diva", "hp": 64, "atk": 11 },
+        { "name": "走调的巨人 · 安可夫", "sprite": "boss_ancoff", "hp": 128, "atk": 16, "boss": true }
+      ],
+      "rank": { "S": 980, "A": 800, "B": 600 }
+    }
+  ]
+}

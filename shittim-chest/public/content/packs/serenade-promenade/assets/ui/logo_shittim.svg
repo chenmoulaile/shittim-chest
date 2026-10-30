@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300">
+  <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4fc3ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+  <g transform="translate(60 40)">
+    <path d="M90 20 L160 55 L160 150 L90 185 L20 150 L20 55 Z" fill="#101d3a" stroke="url(#lg)" stroke-width="8"/>
+    <path d="M55 95 L90 115 L125 90 M90 115 L90 160" stroke="#4fc3ff" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <circle cx="90" cy="70" r="12" fill="#ffd257"/>
+  </g>
+  <text x="260" y="150" font-size="86" font-weight="bold" fill="url(#lg)" font-family="sans-serif" letter-spacing="6">SHITTIM CHEST</text>
+  <text x="262" y="215" font-size="34" fill="#9fb6dd" font-family="sans-serif" letter-spacing="10">BLUE ARCHIVE STORY &amp; EVENT REVIVAL</text></svg>

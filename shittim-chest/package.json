@@ -1,0 +1,33 @@
+{
+  "name": "shittim-chest",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SHITTIM CHEST —— 蔚蓝档案国际服剧情与活动复刻平台 V1（清单驱动 · 完全离线）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.app.json && vue-tsc --noEmit -p tsconfig.node.json",
+    "assets:generate": "node scripts/generate-assets.mjs",
+    "content:validate": "node scripts/validate-manifest.mjs",
+    "postinstall": "node scripts/copy-wasm.mjs"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "pinia": "^3.0.3",
+    "pixi-filters": "6.1.5",
+    "pixi.js": "8.14.3",
+    "sql.js": "1.15.2",
+    "vue": "^3.5.13",
+    "vue-demi": "^0.14.10",
+    "vue3-pixi": "1.0.3"
+  },
+  "devDependencies": {
+    "@types/sql.js": "^1.4.9",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "serenade-story-1",
+  "title": "第1话 崔尼蒂嘉年华7号街",
+  "nodes": [
+    { "type": "title", "text": "第1话", "sub": "崔尼蒂嘉年华7号街" },
+    { "type": "bg", "asset": "bg_trinity_carnival", "effect": "fade" },
+    { "type": "bgm", "asset": "bgm_serenade" },
+    { "type": "narrate", "text": "崔尼蒂嘉年华——圣三一规模最大的庆典，今天正迎来最热闹的一天。" },
+    { "type": "enter", "char": "sakurako", "position": "center" },
+    { "type": "say", "char": "sakurako", "text": "老师，您来了。情况……比预想的要严峻得多。" },
+    { "type": "enter", "char": "mine", "position": "right" },
+    { "type": "say", "char": "mine", "text": "樱子会长已经连续核对三遍流程表了！舞台、音响、服装——全都不够用！" },
+    { "type": "say", "char": "sakurako", "text": "美祢，请不要用“严峻”来形容游园会……不过，确实如她所说。" },
+    { "type": "enter", "char": "sensei", "position": "left" },
+    { "type": "say", "char": "sensei", "text": "所以，需要老师帮忙的部分是——" },
+    { "type": "say", "char": "mine", "text": "偶像演出！我们两个报名了嘉年华主舞台的压轴演出，但是……" },
+    { "type": "say", "char": "sakurako", "text": "合唱、编舞、乐器，我们都不擅长。修女会的人手也完全排不开。" },
+    { "type": "enter", "char": "mari", "position": "left", "emotion": "normal" },
+    { "type": "exit", "char": "sensei" },
+    { "type": "say", "char": "mari", "text": "老师，樱子会长，还有美祢同学——大家都聚在这里呀。" },
+    { "type": "say", "char": "sakurako", "text": "玛丽……其实，我们正想去找你。" },
+    { "type": "say", "char": "mari", "voice": "voice_mari_01", "text": "为樱子会长帮忙，是理所当然的事情。偶像演出的事，也请交给我吧。" },
+    { "type": "choice", "prompt": "老师该如何回应？", "options": [
+      { "text": "交给玛丽同学，一定没问题。", "flag": "q1_trust", "goto": "support" },
+      { "text": "一个人扛不行，大家一起加油吧。", "flag": "q1_together", "goto": "together" }
+    ] },
+    { "type": "label", "name": "support" },
+    { "type": "say", "char": "sensei", "text": "玛丽同学的可靠程度，在圣三一可是有口皆碑的。" },
+    { "type": "jump", "to": "converge" },
+    { "type": "label", "name": "together" },
+    { "type": "say", "char": "sensei", "text": "一个人把所有事情扛下来可不行。这一次，大家一起上。" },
+    { "type": "label", "name": "converge" },
+    { "type": "enter", "char": "sensei", "position": "right" },
+    { "type": "say", "char": "mari", "voice": "voice_mari_02", "text": "……谢谢您，老师。" },
+    { "type": "say", "char": "mine", "text": "那么，先从调查其他小组的准备情况开始吧！知己知彼，百战不殆！" },
+    { "type": "say", "char": "sakurako", "text": "就这么定了。老师，准备期间请多多关照。" },
+    { "type": "transition", "mode": "outIn" },
+    { "type": "bg", "asset": "bg_school_street_night", "effect": "fade" },
+    { "type": "narrate", "text": "于是，为了偶像演出，三人的准备拉开了帷幕。——第1话 完——" },
+    { "type": "end" }
+  ]
+}
