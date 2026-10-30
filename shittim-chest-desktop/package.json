@@ -1,0 +1,45 @@
+{
+  "name": "shittim-chest-desktop",
+  "productName": "SHITTIM CHEST",
+  "version": "1.0.0",
+  "description": "SHITTIM CHEST 桌面版 —— 蔚蓝档案剧情与活动复刻平台（本地清单驱动 · 完全离线）",
+  "main": "main.js",
+  "author": "chenmoulaile",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win zip --x64"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "io.github.chenmoulaile.shittim-chest",
+    "productName": "SHITTIM CHEST",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "dist/**/*",
+      "build/icon.ico",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "artifactName": "SHITTIM-CHEST-${version}-win-x64.${ext}",
+      "signAndEditExecutable": false
+    }
+  }
+}

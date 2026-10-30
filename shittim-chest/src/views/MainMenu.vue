@@ -21,9 +21,9 @@ function openLobby(): void {
 
 <template>
   <div class="menu">
-    <div class="menu-bg"></div>
+    <img class="menu-bg" :src="'./content/packs/serenade-promenade/assets/ui/bg_menu.svg'" alt="" />
     <div class="menu-head">
-      <img class="logo" src="/content/packs/serenade-promenade/assets/ui/logo_shittim.svg" alt="SHITTIM CHEST" />
+      <img class="logo" :src="'./content/packs/serenade-promenade/assets/ui/logo_shittim.svg'" alt="SHITTIM CHEST" />
       <div class="ver">V1 · 先将她们的小夜曲 <span class="badge active">离线复刻</span></div>
     </div>
 
@@ -73,8 +73,8 @@ function openLobby(): void {
 <style scoped>
 .menu { position: absolute; inset: 0; }
 .menu-bg {
-  position: absolute; inset: 0;
-  background: url('/content/packs/serenade-promenade/assets/ui/bg_menu.svg') center / cover no-repeat;
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; /* 相对路径 <img>：兼容任意子路径部署与 Electron file:// */
 }
 .menu-head { position: absolute; top: 7%; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .logo { width: min(460px, 52%); filter: drop-shadow(0 8px 30px rgba(79,195,255,.3)); }

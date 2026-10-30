@@ -70,7 +70,7 @@ onMounted(async () => {
 
 <template>
   <div class="boot">
-    <img class="boot-logo" src="/content/packs/serenade-promenade/assets/ui/logo_shittim.svg" alt="SHITTIM CHEST" />
+    <img class="boot-logo" :src="'./content/packs/serenade-promenade/assets/ui/logo_shittim.svg'" alt="SHITTIM CHEST" />
     <div class="boot-step">{{ stepText }}</div>
     <div class="boot-bar">
       <div class="boot-bar-fill" :style="{ width: percent + '%' }"></div>
